@@ -1,2 +1,1 @@
-# python_data_benchmarks
-Python Data Serualization and Embeded Databases Benchmarks
+# Python Data Serialization and Embedded Databases Benchmarks
