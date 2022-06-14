@@ -1,6 +1,23 @@
-# Python Data Serialization and Embedded Databases Benchmarks
+# Python Data Benchmarks
 
-## Python Data Serialization Libraries
+### Data Structure:
+List of 1M of key values, with different types of values: int, float, strings, list, dicts
+
+## Python Data Objects
+Metrics: size, single index, range index, filtering, groupby, pivot_table
+- dict of dicts
+- list of dicts
+- list of tuples
+- list of lists
+- list of objects
+- list of numpy arrays
+- dict of numpy arrays
+- dict of key names and numpy Nd array
+- Pandas
+- Polars
+
+## Python Data Persistence:
+Metrics: file size, save time, load time
 - Pickle: with dict message types
 - ujson
 - shelve
@@ -31,6 +48,3 @@ https://charlesleifer.com/blog/completely-un-scientific-benchmarks-of-some-embed
 - DiskCache
 - Memcached
 - Redis
-
-### Data Structure:
-List of 1M of dicts
