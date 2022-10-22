@@ -1,7 +1,7 @@
 # Python Data Benchmarks
 
 ### Data Structure:
-List of 1M of key values, with different types of values: int, float, strings, list, dicts
+List of 1M of key values, with different types of values: int, float, strings
 
 ## Python Data Objects
 Metrics: size, single index, range index, filtering, groupby, pivot_table
@@ -26,6 +26,7 @@ Metrics: file size, save time, load time
 - [Quickle](https://jcristharif.com/quickle/index.html)
 - parquet
 - feather
+- arrow
 
 ## Python Embedded Databases
 https://charlesleifer.com/blog/completely-un-scientific-benchmarks-of-some-embedded-databases-with-python/
